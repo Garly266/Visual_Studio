@@ -8,4 +8,4 @@ while (i <= N)
     i=i+2;
 }
 
-Console.WriteLine("Нет четных чисел");
+
