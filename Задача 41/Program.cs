@@ -24,6 +24,7 @@ void Task41()
     int length = ReadInt("Введите длинну массива");
     int[] array = new int[length];
     FillArrayNumbers(array);
+
     Console.WriteLine($"Массив:[{string.Join(", ", array)}].");
     Console.WriteLine($"Количество положительных чисел в массиве = {PositiveNumbers(array)}");
 
@@ -63,6 +64,35 @@ void Task41()
 
 void Task43()
 {
-    Console.WriteLine(430);
+    // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
+    // заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 
+    // задаются пользователем.
+    // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+
+   
+    var a1 = ReadInt("Введите a1: ");
+    var b1 = ReadInt("Введите b1: ");
+    var a2 = ReadInt("Введите a2: ");
+    var b2 = ReadInt("Введите b2: ");
+
+    int ReadInt(string message)
+    {
+        Console.WriteLine(message);
+
+        if (int.TryParse(Console.ReadLine(), out int i))
+        {
+            return i;
+        }
+        Console.WriteLine(" No message");
+        return -1;
+    }
+
+    var x = -(b1 - b2) / (a1 - a2);
+    var y = a1 * x + b1;
+
+    x = Math.Round(x, 3);
+    y = Math.Round(y, 3);
+
+    Console.WriteLine($"Пересечение в точке: ({x};{y})");
 }
 
