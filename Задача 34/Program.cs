@@ -1,6 +1,6 @@
-﻿bool HomeWork = true;
+﻿bool HomeWork5 = true;
 
-while (HomeWork)
+while (HomeWork5)
 {
     string command = Console.ReadLine();
 
