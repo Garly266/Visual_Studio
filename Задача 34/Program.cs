@@ -9,7 +9,7 @@ while (HomeWork5)
         case "task34": Task34(); break;
         case "task36": Task36(); break;
         case "task38": Task38(); break;
-        case "exit": HomeWork = false; break;
+        case "exit": HomeWork5 = false; break;
     }
 }
 
