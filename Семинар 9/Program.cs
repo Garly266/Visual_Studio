@@ -1,5 +1,5 @@
 ﻿// Задача 63 и 65
-/*
+
 int ReadInt()
 {
     Console.WriteLine("input number");
@@ -19,7 +19,7 @@ void PrintNumbers(int n, int m)
     }
 }
 PrintNumbers(ReadInt(), ReadInt());
-*/
+
 
 
 
