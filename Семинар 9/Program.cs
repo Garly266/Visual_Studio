@@ -27,7 +27,7 @@ PrintNumbers(ReadInt(), ReadInt());
 
 // Рекурсия наглядный пример 
 
-/*
+
 PrintNumbers(1, 5);
 
 void PrintNumbers(int m,int n)
@@ -43,8 +43,8 @@ void PrintNumbers(int m,int n)
         Console.WriteLine(m);
     }
 }
-*/
-/*
+
+
 int n = int.Parse(Console.ReadLine());
 
 int GetSum(int n)
@@ -54,10 +54,10 @@ int GetSum(int n)
     return 0;
 }
 Console.WriteLine(GetSum(n));
-*/
+
 
 // Возведение в степень числа A в число B с помощью рекурсии
-/*
+
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 
@@ -68,10 +68,10 @@ int GetPow(int A,int B)
     else return A ;
 }
 Console.WriteLine(GetPow(A,B));
-*/
+
 
 //Решение через индексы 
-/*
+
 string GetSum(string s, int index)
 {
     if (index > 0)
@@ -86,7 +86,7 @@ string GetSum(string s, int index)
 
 string s = "153";
 Console.WriteLine(GetSum(s, s.Length));
-*/
+
 
 
 
